@@ -22,5 +22,62 @@ Users may pick and choose from a variety of components to tailor the framework t
 
 IBM Quantum, the company's cloud-based quantum computing platform, is also accessible through Qiskit. The IBM Quantum Experience offers both simulators and actual quantum computers for users to execute their programmes on.
 
+## Deutsch Algorithm
+One of the first quantum algorithms, the Deutsch algorithm (also known as the Deutsch-Jozsa algorithm), shows how quantum computing may solve some problems exponentially more quickly than traditional computers.
+
+The Deutsch function or Deutsch problem refers to the issue that the Deutsch algorithm attempts to solve. It entails figuring out if a particular function is constant or balanced; the former produces the same value for all inputs while the latter produces various values for half of the inputs and the same value for the rest.
+
+In order to determine whether the provided function is balanced or constant, the traditional method of addressing the Deutsch issue calls for evaluating it twice. Even with big functions and plenty of inputs, this would hold true.
+
+With just one function evaluation, the Deutsch approach, which uses a quantum computer, addresses the issue and provides a considerable speedup. Here's how it functions:
+
+1. Initialization: The algorithm begins with two quantum registers, each consisting of one qubit. These qubits are prepared in the state |0⟩ (zero state) initially.
+
+2. Superposition: A Hadamard gate (H gate) is applied to the first qubit, placing it in a superposition state. Now, the first qubit is in the state |+⟩, which is an equal superposition of |0⟩ and |1⟩.
+
+3. Function Evaluation: The given function f(x) is applied to both qubits. In a quantum computer, this function can be represented by a quantum oracle. The oracle transforms the qubits based on the function's behavior, mapping inputs to outputs.
+
+4. Second Hadamard Gate: Another Hadamard gate is applied to the first qubit.
+
+5. Measurement: Finally, the algorithm measures both qubits. The measurement collapses the qubits into classical bits, and the result is observed.
+
+6. Analysis: By analyzing the measurement results, the algorithm can determine whether the function is constant or balanced.
+
+The Deutsch algorithm's basic concept is interference. Due to interference that happens during assessment as a result of the qubits' quantum nature, certain patterns of measurement outcomes ensue. The measurement results will show constructive interference, which will result in a certain pattern if the function is balanced. The measurement findings will exhibit destructive interference and produce a distinct pattern if the function is constant.
+
+Without re-evaluating the function, it is feasible to tell if it is constant or balanced by looking at the measurement data.
+
+## How to run the code
+1. Download and install Python 3.9.7 from [here](https://www.python.org/downloads/).
+2. Download and install Visual Studio Code from [here](https://code.visualstudio.com/download).
+3. Download and install Git from [here](https://git-scm.com/downloads).
+4. Open the command line and type in the following commands:
+```
+git clone
+cd Emerging-Technologies-Assessment-2023
+```
+5. Open the folder in Visual Studio Code.
+6. Open a new terminal in Visual Studio Code and type in the following commands:
+```
+. venv/bin/activate
+pip install -r requirements.txt
+```
+7. To run the code, type in the following command:
+```
+python main.py
+```
+8. To run the tests, type in the following command:
+```
+python -m pytest
+```
+## References
+* [Qiskit](https://qiskit.org/)
+* [Deutsch Algorithm](https://www.ibm.com/blogs/research/2018/03/deutsch-algorithm-quantum-computing/)
+* [Git](https://git-scm.com/)
+* [Python](https://www.python.org/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+
+
 
 
