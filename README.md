@@ -6,6 +6,7 @@ The topics covered in this assessment are as follows:
 *  Deutsch Algorithm
 
 ## Qiskit
+![Qiskit](https://repository-images.githubusercontent.com/161550823/577d6f0e-7608-434c-b4a8-88a875c1cfd2)
 IBM created the open-source software framework known as Qiskit to allow people to interact with quantum computers. It is a complete toolkit for developing quantum computers that offers a variety of software, libraries, and programming tools for creating and running quantum algorithms.
 
 Qiskit offers a high-level programming interface that enables users to communicate with quantum processors and simulators. Python, which is the primary language used for quantum programming in Qiskit, is one of the many programming languages it supports. This makes it available to a variety of users, both experienced quantum computer users and beginners.
@@ -23,6 +24,7 @@ Users may pick and choose from a variety of components to tailor the framework t
 IBM Quantum, the company's cloud-based quantum computing platform, is also accessible through Qiskit. The IBM Quantum Experience offers both simulators and actual quantum computers for users to execute their programmes on.
 
 ## Deutsch Algorithm
+![Deutsch Algorithm](https://assets-global.website-files.com/6051c82bb106f381a2f95f8f/63fe84e8924b93724a916953_Screenshot%202023-02-28%20at%205.48.50%20PM.png)
 One of the first quantum algorithms, the Deutsch algorithm (also known as the Deutsch-Jozsa algorithm), shows how quantum computing may solve some problems exponentially more quickly than traditional computers.
 
 The Deutsch function or Deutsch problem refers to the issue that the Deutsch algorithm attempts to solve. It entails figuring out if a particular function is constant or balanced; the former produces the same value for all inputs while the latter produces various values for half of the inputs and the same value for the rest.
