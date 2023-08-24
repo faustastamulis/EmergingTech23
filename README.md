@@ -48,34 +48,33 @@ The Deutsch algorithm's basic concept is interference. Due to interference that 
 Without re-evaluating the function, it is feasible to tell if it is constant or balanced by looking at the measurement data.
 
 ## How to run the code
-1. Download and install Python 3.9.7 from [here](https://www.python.org/downloads/).
-2. Download and install Visual Studio Code from [here](https://code.visualstudio.com/download).
-3. Download and install Git from [here](https://git-scm.com/downloads).
-4. Open the command line and type in the following commands:
-```
+1. Download and install [Git](https://git-scm.com/downloads)
+2. Download and install [Python](https://www.python.org/downloads/)
+3. Download and install [Visual Studio Code](https://code.visualstudio.com/)
+4. Download and install [Jupyter Notebook](https://jupyter.org/install)
+5. Download and install [Qiskit](https://qiskit.org/documentation/install.html)
+6. Open the command line and type in the following command to clone the repository:
+```bash
 git clone
-cd Emerging-Technologies-Assessment-2023
 ```
-5. Open the folder in Visual Studio Code.
-6. Open a new terminal in Visual Studio Code and type in the following commands:
+7. Navigate to the folder where you cloned the repository and open it in Visual Studio Code.
+8. Open the command line in Visual Studio Code and type in the following command to run the Jupyter Notebook:
+```bash
+jupyter notebook
 ```
-. venv/bin/activate
-pip install -r requirements.txt
-```
-7. To run the code, type in the following command:
-```
-python main.py
-```
-8. To run the tests, type in the following command:
-```
-python -m pytest
-```
+9. Click on the Deutsch Algorithm.ipynb file to open it.
+10. Click on the Run button to run the code.
+11. The code will run and the results will be displayed.
+12. Repeat for the Qiskit.ipynb file.
+
 ## References
 * [Qiskit](https://qiskit.org/)
 * [Deutsch Algorithm](https://www.ibm.com/blogs/research/2018/03/deutsch-algorithm-quantum-computing/)
 * [Git](https://git-scm.com/)
 * [Python](https://www.python.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Jupyter Notebook](https://jupyter.org/)
 
 
 
